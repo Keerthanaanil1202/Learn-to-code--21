@@ -10,8 +10,7 @@ int main()
   swap(x,y);
   return 0;
 }
-
-int swap(int a,int b)
+void swap(int a,int b)
  {
    int k=0;
       k=a;
