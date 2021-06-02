@@ -39,7 +39,7 @@ int main()
 
   gets(A) ;
   nos=count(A);
-  printf("%d\n",nos);
+  printf("no of words = %d\n",nos);
   l=strlen(A);
   reverse(A,0,l-1);
   printf("%s",A);
